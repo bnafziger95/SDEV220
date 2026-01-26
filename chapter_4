@@ -1,0 +1,60 @@
+# 4.1
+song = """When an eel grabs your arm,
+... And it causes great harm,
+... That's - a moray!"""
+
+song = f"""{song.replace(' m',' M')}"""
+
+print(song)
+print()
+
+# 4.2
+food_1 = "roast beef"
+food_2 = "ham"
+body_part = "head"
+animal = "clam"
+
+poem = (
+    f"My kitty cat likes {food_1},\n"
+    f"My kitty cat likes {food_2},\n"
+    f"My kitty cat fell on his {body_part},\n"
+    f"And no thinks he's a {animal}."
+)
+
+print(poem)
+print()
+
+
+# 4.4
+salutation = "Ms."
+name = "Beverly"
+product = "toaster"
+verbed = "exploded"
+room = "bathroom"
+animals = "cats"
+percent = "5"
+amount = 50
+spokesman = "John Doe"
+job_title = "Intern"
+
+# 4.3
+letter = f"""Dear {salutation} {name},
+
+    Thank you for your letter. We are sorry that our {product} {verbed} in your {room}. Please note that it should never be used in a {room}, especially near any {animals}.animal
+
+    Send us your receipt and {amount} for shipping and handling. We will send you another {product} that, in our tests, is {percent}% less likely to have {verbed}.ValueError
+
+    Thank you for your support.
+
+    Sincerely,
+    {spokesman}
+    {job_title}"""
+
+print(letter)
+print()
+
+# 4.5
+names = ["duck", "gourd", "spitz"]
+
+for item in names:
+    print(f"{item.capitalize()}y Mc{item.capitalize()}face")
