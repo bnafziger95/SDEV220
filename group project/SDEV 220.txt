@@ -6,25 +6,16 @@ Main Window:
 - Title of Program
 - Image/artwork to make it look interesting
 - Buttons to New Windows:
-	- Enter a Knitting Project
-	- Enter a Crochet Project
-	- Enter Other Fiber Arts Project (OPTIONAL ADDITION)
+	- Enter a Knitting/Crochet Project
 	- Go to Project Library
+	- Row Counter
 - Additional Buttons
 	- Exit Program
 
-Knitting Project Window:
+Knitting/Crochet Project Window:
 - Title of Window
 - Image/artwork of Knitting
 - Buttons:
-	- Enter New Project
-	- Edit/Update Project
-	- Exit
-
-Crochet Project Window:
-- Title of Window
-- Image/artwork of Crochet
--Buttons:
 	- Enter New Project
 	- Edit/Update Project
 	- Exit
@@ -34,23 +25,28 @@ Enter New Project Window:
 - Entry Boxes:
 	- Project Title
 	- Needle/Hook Size
-	- Number of Pieces
-		-Entry for number of rows/rounds for each piece??
+	- Number of Pieces?
+		- If yes:
+			- Entry boxes for each piece as check box
+		- If no:
+			- skip
 	- Difficulty Level
-	- Yarn Weight
-	= Yarn Colors
-	- Current Piece working on
+	- Yarn Info:
+		- Color
+		- Weight
+		- Content
+		- Lot Number
 	- Current Row/Round
 
 Edit Project Window:
 - Title of Window
-- Entry Boxes:      *** Overwrites Current Piece and Current Row/Round in Library ***
-	- Current Piece Working On
+- Entry Boxes:      *** Overwrites Checkboxes and Current Row/Round in Library ***
+	- Checkboxes for pieces
 	- Current Row/Round
-	*** New Entry to Add Finished Pieces??? ***
-	- Finished Pieces
+	- Mark as complete ?????
 
 Project Library:     *** Draw out an Idea of how we would like the library to display ***
 - Title of Window
 - Display a Chart of Projects and Progress
+
 
